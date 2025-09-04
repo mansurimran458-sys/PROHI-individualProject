@@ -1,6 +1,6 @@
 # PROHI Dashboard Example
 
-**Author**: [Write your name here]
+**Author**: Md Imran Mansur
 <!-- As main author, do not write anything in the line below.
 The collaborator will edit the line below in GitHub -->
 **Collaborator**:
