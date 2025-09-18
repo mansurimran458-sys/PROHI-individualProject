@@ -99,12 +99,17 @@ if page == "Dashboard":
     st.info("Note: Widgets are illustrative only; no dataset is loaded and no filtering or modeling is performed.")
 
 else:
-    st.title("Your Name")
+    st.title("Md_Imran_Mansur")
 
-    st.markdown("""
+st.markdown("""
 ### Project summary
 
-This two-page Streamlit dashboard demonstrates a clean, minimal structure for a stroke-focused data app without loading real files. The Dashboard presents three input widgets derived from the dataset schema—gender, age, and work type—alongside a synthetic data table and a simple chart to illustrate layout and components. The design emphasizes readability, discoverability, and reproducibility over functionality, making it suitable for coursework demonstrations. Potential extensions include robust data ingestion, validation, exploratory data analysis, and a properly evaluated classification pipeline with calibration and fairness checks. This foundation supports iterative development of clinical analytics while keeping the initial scope simple and transparent for demonstration and review.
+My project analyzes the Stroke Prediction dataset to characterize risk factors and develop a binary classifier for stroke occurrence. 
+The dataset includes 5,110 patient records with 12 features spanning demographics, comorbidities, lifestyle, and clinical measures. 
+Key numerical variables are age, average glucose level, and BMI; categorical variables include gender, ever_married, work_type, Residence_type, and smoking_status; and binary indicators cover hypertension, heart_disease, and stroke.
+The workflow encompassed data understanding, imputing missing BMI values, encoding categorical features, and cross-validated model selection. Multiple algorithms were benchmarked on the imbalanced target using F1 as the primary metric. 
+The best-performing model, a GradientBoostingClassifier with 200 estimators and learning_rate=0.05, achieved the highest cross-validated F1, balancing precision and recall.
+
 """)
 
 
