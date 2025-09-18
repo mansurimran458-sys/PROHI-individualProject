@@ -13,9 +13,16 @@ _Here you can include images, like the logo from SU_
 
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+_This Streamlit dashboard is a simple, two-page stroke risk demo. The Dashboard page offers three illustrative input widgets, a small synthetic data table, and a quick chart for exploration_
 
 ## System description
+The project consists of:
+
+- Dashboard.py: the main dashboard file.
+
+- pages/About.py: contains author information and a project summary.
+
+- assets/: contains images and screenshots.
 
 ### Installation of libraries
 
@@ -48,11 +55,8 @@ First, make sure that you are running Python from the environment. Check the ste
 Tested on Python 3.12.7 with the following packages:
   - Jupyter v1.1.1
   - Streamlit v1.46.1
-  - Seaborn v0.13.2
-  - Plotly v6.2.0
-  - Scikit-Learn v1.7.0
-  - shap v0.48.0
-
+  
 ## Contributors
 
-_Add the project's authors, contact information, and links to websites or portfolios._
+_Md Imran Mansur_
+_Contact: +46-739985865
