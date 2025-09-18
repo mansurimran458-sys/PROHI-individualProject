@@ -101,15 +101,15 @@ if page == "Dashboard":
 else:
     st.title("Md_Imran_Mansur")
 
-st.markdown("""
-### Project summary
+    st.markdown("""
+    ### Project summary
 
-My project analyzes the Stroke Prediction dataset to characterize risk factors and develop a binary classifier for stroke occurrence. 
-The dataset includes 5,110 patient records with 12 features spanning demographics, comorbidities, lifestyle, and clinical measures. 
-Key numerical variables are age, average glucose level, and BMI; categorical variables include gender, ever_married, work_type, Residence_type, and smoking_status; and binary indicators cover hypertension, heart_disease, and stroke.
-The workflow encompassed data understanding, imputing missing BMI values, encoding categorical features, and cross-validated model selection. Multiple algorithms were benchmarked on the imbalanced target using F1 as the primary metric. 
-The best-performing model, a GradientBoostingClassifier with 200 estimators and learning_rate=0.05, achieved the highest cross-validated F1, balancing precision and recall.
+    My project analyzes the Stroke Prediction dataset to characterize risk factors and develop a binary classifier for stroke occurrence. 
+    The dataset includes 5,110 patient records with 12 features spanning demographics, comorbidities, lifestyle, and clinical measures. 
+    Key numerical variables are age, average glucose level, and BMI; categorical variables include gender, ever_married, work_type, Residence_type, and smoking_status; and binary indicators cover hypertension, heart_disease, and stroke.
+    The workflow encompassed data understanding, imputing missing BMI values, encoding categorical features, and cross-validated model selection. Multiple algorithms were benchmarked on the imbalanced target using F1 as the primary metric. 
+    The best-performing model, a GradientBoostingClassifier with 200 estimators and learning_rate=0.05, achieved the highest cross-validated F1, balancing precision and recall.
 
-""")
+    """)
 
 
